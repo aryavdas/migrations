@@ -1,0 +1,88 @@
+/* ----- Important Things ----- */
+
+* {
+    color: white;
+    margin: 0;
+    font-family: Kalam;
+
+}
+
+body {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: black;
+
+
+}
+
+.row {
+    width: 100%;
+
+}
+
+/* ----- Header ----- */
+
+header {
+    background-color: RGB(15,15,30);
+    height: 35px;
+    width: 100%;
+    border-radius: 3%;
+}
+
+/* ----- Title ----- */
+
+.title {
+    position: relative;
+    text-align: center;
+    top: 3%;
+    height: 20%;
+    margin-bottom: 5%;
+}
+
+
+.title h1 {
+    font-size: 100px;
+}
+
+.title #line-title {
+    background-color: white;
+    width: 60%;
+    height: 2px;
+    margin: 0 auto;
+}
+
+/* ----- Map ------ */
+
+/* ----- Blurb -----*/
+
+.blurb {
+    text-align: center;
+}
+
+.blurb p {
+    font-size: 25px;
+    mso-font-width: 300;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* ----- Image ----- */
+
+.image img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 20%;
+    border: 7px solid white;
+    border-radius: 10px;
+    transition: width 0.4s, border 0.4s;
+}
+
+.image img:hover {
+    width: 23%;
+    border: 3px solid white;
+    transition: width 1s, border 1s;
+}
